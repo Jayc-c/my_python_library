@@ -10,7 +10,14 @@ while True:
         number = float(user_input)
     
 # Check for duplicates.
-# Display Unique/Duplicate Status.
-# Display Unique/Duplicate Status.
+        if number in seen_numbers:
+            # Display Unique/Duplicate Status.
+            print("Duplicate")
+        else:
+            # Display Unique/Duplicate Status.
+            print("Unique")
+            # Record Unique Number.
+            seen_numbers.append(number)
+
 # Record Unique Number.
 # Stop on invalid input.
