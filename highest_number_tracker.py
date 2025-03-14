@@ -16,5 +16,7 @@ while True:
             # Find and print the max number
             print(f"Highest: {max(numbers)}") 
 
-# Find and print the max number
 # Stop on invalid input.
+        else:
+            print("No numbers entered.")
+        break 
