@@ -9,7 +9,10 @@ while True:
         # Store number to the list.
         numbers.append(num)
 
-# Stop on non-number input
+    # Stop on non-number input.
+    except ValueError:
+        break  
+
 # If at least one number was entered.
 # Calculate average.
 # Print the average.
