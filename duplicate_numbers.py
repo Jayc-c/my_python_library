@@ -7,5 +7,11 @@ for i in range(10):
     entered_numbers.append(num)
 
 # Initialize an empty list for counting duplicate numbers
+duplicate_numbers = []
+
 # Track duplicates
-# display numbers that have duplicate
+for num in entered_numbers:
+    if entered_numbers.count(num) > 1 and num not in duplicate_numbers:
+        duplicate_numbers.append(num)
+
+# Display numbers that have duplicate
