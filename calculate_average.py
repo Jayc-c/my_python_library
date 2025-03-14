@@ -14,6 +14,9 @@ while True:
         break  
 
 # If at least one number was entered.
-# Calculate average.
+if numbers:  
+    # Calculate average.
+    average = sum(numbers) / len(numbers)  
+
 # Print the average.
 # Else, no input message.
