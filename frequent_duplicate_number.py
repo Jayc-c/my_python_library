@@ -16,4 +16,6 @@ while True:
         count = entered_numbers.count(most_frequent)
 
 # Display the most frequent number and its count.
+        print(f"number {most_frequent}, appeared {count} times") 
+
 # Stops the program if invalid input.     
