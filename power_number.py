@@ -8,3 +8,5 @@ exponent_num2 = int(input("Input another number: "))
 result = base_num1**exponent_num2
 
 # Print result.
+
+print(result)
