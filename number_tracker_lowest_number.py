@@ -14,3 +14,6 @@ while True:
             print(f"Lowest number so far: {min(entered_numbers)}")
 
 # stops the program if invalid input.
+    except ValueError:
+        print("Program stopped, please input valid number")
+        break  
