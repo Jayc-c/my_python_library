@@ -7,8 +7,13 @@ for i in range(10):
     # Add the entered number to the 'numbers' list.
     numbers.append(num)
 
-# Initialize an empty list to store the numbers that appear only once.
-# Loop through each number in the 'numbers' list.
-# Check if the current number appears only once.
-# If yes, add to the 'unique_numbers' list.
+ # Initialize an empty list to store the numbers that appear only once.
+    unique_numbers = []
+    # Loop through each number in the 'numbers' list.
+    for num in numbers:
+        # Check if the current number appears only once.
+        if numbers.count(num) == 1:
+            # If yes, add to the 'unique_numbers' list.
+            unique_numbers.append(num)
+
 # Print the list of numbers that don't have duplicates.
