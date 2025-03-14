@@ -1,7 +1,14 @@
 # Initialize and empty list to store numbers.
+numbers = []  
+
 # Loop until invalid input.
-# Prompt user to input a number  
-# Store number to the list.
+while True:
+    try:
+        # Prompt user to input a number
+        num = float(input("Enter a number: "))  
+        # Store number to the list.
+        numbers.append(num)
+
 # Stop on non-number input
 # If at least one number was entered.
 # Calculate average.
