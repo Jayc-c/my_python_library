@@ -18,4 +18,7 @@ while True:
 # Display the most frequent number and its count.
         print(f"number {most_frequent}, appeared {count} times") 
 
-# Stops the program if invalid input.     
+# stops the program if invalid input.     
+    except ValueError:
+        print("Invalid input, program will stop.")
+        break
