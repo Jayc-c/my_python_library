@@ -7,5 +7,5 @@ for i in range(10):
 # Check if the input number is divisible by 2, if yes, add 1 to the variable.
     if number % 2 != 0:
         odd_count += 1
-# Print the amount of even numbers.
+# Print the amount of odd numbers.
 print(f"Number of odd numbers: {odd_count}")
