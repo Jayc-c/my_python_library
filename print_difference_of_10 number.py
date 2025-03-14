@@ -9,3 +9,4 @@ for i in range(10):
 # process
 result = numbers[0] - sum(numbers[1:])
 # Print the result of the first number minus all the remaining numbers.
+print(f"The result is: {result}")
