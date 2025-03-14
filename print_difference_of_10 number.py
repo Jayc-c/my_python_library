@@ -7,4 +7,5 @@ for i in range(10):
     # Add the input number to the list.
     numbers.append(num)
 # process
+result = numbers[0] - sum(numbers[1:])
 # Print the result of the first number minus all the remaining numbers.
