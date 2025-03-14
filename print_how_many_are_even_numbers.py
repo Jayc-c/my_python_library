@@ -9,4 +9,6 @@ for i in range(10):
     # Check if the input number is divisible by 2, if yes, add 1 to the variable.
     if number % 2 == 0:
         even_count += 1
+        
 # Print the amount of even numbers.
+print(f"Number of even numbers: {even_count}")
