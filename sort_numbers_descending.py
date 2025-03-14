@@ -9,7 +9,12 @@ while True:
         # Store the number to list.
         numbers.append(num)
 
-# Stop on non-number input.
-# Sort from highest to lowest.
+ # Stop on non-number input.
+    except ValueError:
+        break  
+if numbers:
+     # Sort from highest to lowest.
+    numbers.sort(reverse=True) 
+
 # Display the sorted numbers.
 # Else, no input message.
