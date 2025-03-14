@@ -8,6 +8,11 @@ for i in range(10):
     numbers.append(num)  
 
 # Display the numbers that don't have duplicates
+print("Numbers that don't have duplicates: ")
+
 # Check each number in the list
-# Check if unique.
+for num in numbers:  
+    # Check if unique.
+    if numbers.count(num) == 1:  
+
 # Print unique number.
