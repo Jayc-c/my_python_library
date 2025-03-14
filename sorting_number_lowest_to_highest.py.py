@@ -14,3 +14,6 @@ while True:
         print("Sorted:", numbers)
 
 # Stop on invalid input.
+    except ValueError:
+        print("Invalid input. Stopping.")
+        break
