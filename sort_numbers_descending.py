@@ -16,5 +16,8 @@ if numbers:
      # Sort from highest to lowest.
     numbers.sort(reverse=True) 
 
-# Display the sorted numbers.
-# Else, no input message.
+    # Display the sorted numbers.
+    print("Numbers:", numbers)  
+else:
+    # Else, no input message.
+    print("No numbers.")  
