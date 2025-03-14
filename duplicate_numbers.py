@@ -16,3 +16,4 @@ for num in numbers:
     if numbers.count(num) == 1:  
 
 # Print unique number.
+        print(num)  
