@@ -8,7 +8,13 @@ while True:
         # Store the number to the list.
         numbers.append(num)  
 
-# Check if the list is not empty.
-# Check if the list is not empty.
+    except ValueError:
+        # Check if the list is not empty.
+        if numbers: 
+            # Check if the list is not empty.
+            print(f"Numbers entered: {numbers}")
+            # Find and print the max number
+            print(f"Highest: {max(numbers)}") 
+
 # Find and print the max number
 # Stop on invalid input.
