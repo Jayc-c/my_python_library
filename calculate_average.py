@@ -18,5 +18,8 @@ if numbers:
     # Calculate average.
     average = sum(numbers) / len(numbers)  
 
-# Print the average.
-# Else, no input message.
+   # Print the average.
+    print("Average:", average) 
+else:
+    # Else, no input message.
+    print("No valid numbers entered.")
