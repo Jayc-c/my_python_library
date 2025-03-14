@@ -7,3 +7,5 @@ start = min(num1, num2) + 1
 end = max(num1, num2)
 
 # Print numbers in range.
+for i in range(start, end):
+    print(i)
