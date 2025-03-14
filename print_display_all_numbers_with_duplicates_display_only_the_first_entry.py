@@ -17,3 +17,4 @@ for num in numbers:
     seen.append(num)
 
 # Print result
+print(unique_first)
