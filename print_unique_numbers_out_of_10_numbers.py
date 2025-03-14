@@ -17,3 +17,4 @@ for i in range(10):
             unique_numbers.append(num)
 
 # Print the list of numbers that don't have duplicates.
+print("Numbers without duplicates:", unique_numbers)
