@@ -5,3 +5,4 @@ for number in range(101):  # Range goes up to (but not including) 101
     if number % 2 != 0:
 
 # If it's odd, print the number.
+        print(number)
