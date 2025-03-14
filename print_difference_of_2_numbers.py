@@ -1,2 +1,7 @@
 # Ask user to input 2 numbers.
-# Print the sum of 2 numbers.
+
+num1 = int(input("Input a number: "))
+num2 = int(input("Input a number: "))
+
+# Print the difference of 2 numbers.
+print(num1 - num2)
