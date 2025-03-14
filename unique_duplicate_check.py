@@ -19,5 +19,6 @@ while True:
             # Record Unique Number.
             seen_numbers.append(number)
 
-# Record Unique Number.
 # Stop on invalid input.
+    except ValueError:
+        break
