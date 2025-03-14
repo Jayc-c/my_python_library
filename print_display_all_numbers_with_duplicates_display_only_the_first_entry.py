@@ -5,7 +5,10 @@ for i in range(10):
   numbers.append(int(input(f"Enter number {i + 1}: ")))
 
 # Keep track of seen numbers.
+seen = []
 # Store unique first occurrences.
+unique_first = []
+
 # Process each number.
 # If not seen before, add to unique and mark as seen.
 # Print result
